@@ -53,9 +53,9 @@ nav a:hover {
 
 .AMLanding {
     text-align: center;
-    position: relative;
+    display: block;
     background-color: var(--mainGreen);
-    margin: 0;
+    margin: 0 auto;
 }
 
 .AMLanding #header {
@@ -95,5 +95,15 @@ nav a:hover {
     text-decoration-color: var(--plainWhite);
     text-underline-position: under;
     color: white;
+}
+
+.AMLanding #moreInfo a:hover {
+    font-weight: 200;
+}
+
+/* VIDEO */
+
+.AMvideo {
+    
 }
 
