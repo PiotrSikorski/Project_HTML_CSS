@@ -1,44 +1,67 @@
 #po_my_section {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
     line-height: 17px;
+    display: grid;
+    color: rgb(130, 130, 130);
+    background-color: #fafafa;
 }
 
 #po_header {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-style: normal;
     width: 100%;
-    border: 1px solid black;
     font-size: 36px;
-}
-
-
-#po_title {
-    text-align: center; 
+    font-size: 36px;
     line-height: 63px;
+    text-align: center;
+    grid-column: 1/-1;
 }
 
 .po_box {
-    height: 300px;
-    width: 48%;
     float: left;
-    border: 1px solid black;
     align-items: center;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-bottom: 40px;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr auto auto;
 }
 
-.po_box_img {
-    background-color: black;
-    height: 100px;
-    margin: 10px;
+
+.po_box_title_paragraph {
     text-align: center;
-}
-
-.po_box_title {
     font-size: 24px;
-    text-align: center;
+    grid-row: 2/3;
 }
 
-.po_box_text {
-    margin-left: 25%;
-    margin-right: 25%;
+.po_box_text_paragraph {
+    line-height: 17px;
+    grid-row: 3/4;
+}
+
+@media screen and (min-width:600px) {
+    #po_my_section {
+        padding-left: 150px;
+        padding-right: 150px;
+        line-height: 17px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #po_my_section {
+        line-height: 17px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .po_box_img {
+        width: 320px;
+    }
 }
