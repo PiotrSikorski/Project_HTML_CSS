@@ -1,0 +1,108 @@
+.TA-whole-section {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    --ol-green: rgb(93, 207, 140);
+    --ol-grey: rgb(130, 130, 130);
+    color: var(--ol-grey);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+
+}
+
+.TA-pricing-container {
+    margin: 40px 0px 20px 0px;
+    line-height: 2;
+    font-size: 18px;
+    flex-direction: column;
+}
+
+.TA-pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.TA-div-open-source {
+    padding-top: 20px;
+    line-height: 2.5;
+    width: 400px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+.TA-check-features-list {
+    justify-content: center;
+    margin: 20px 70px 40px 70px;
+    text-align: start;
+
+}
+
+.TA-button {
+    font-size: 18px;
+    padding: 15px 60px 15px 60px;
+    background-color: white;
+    border: 2px solid;
+    border-color: var(--ol-green);
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--ol-green);
+
+}
+
+.TA-button a {
+    text-decoration: none;
+}
+
+.TA-button:hover {
+    background-color: var(--ol-green);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.TA-green-button {
+    background-color: var(--ol-green);
+    color: white;
+}
+
+.TA-green-button:hover {
+    background-color: white;
+    border: 2px solid;
+    color: var(--ol-green);
+    border-color: var(--ol-green);
+    border-radius: 50px;
+}
+
+.TA-div-open-loyalty-cloud {
+    padding-top: 20px;
+    margin-left: 20px;
+    line-height: 2.5;
+    width: 400px;
+    height: 500px;
+    border: 0 solid;
+    border-radius: 20px;
+    -webkit-box-shadow: -3px 8px 60px -4px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: -3px 8px 60px -4px rgba(0, 0, 0, 0.27);
+    box-shadow: -3px 8px 60px -4px rgba(0, 0, 0, 0.27);
+}
+
+.TA-h1 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.TA-h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--ol-green);
+
+}
+
+.fa-check {
+    color: var(--ol-green);
+}
