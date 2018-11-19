@@ -11,7 +11,7 @@
   font-size: 36px;
   font-weight: 200;
   position: relative;
-  color: lightgrey;
+  color: rgb(130, 130, 130);
   margin: 75px;
   ;
 }
@@ -22,7 +22,8 @@
   background-color: #FAFAFA;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .CWcontent {
@@ -44,11 +45,13 @@
 }
 
 .CWhigh {
+  color: rgb(130, 130, 130);
   line-height: 19px;
   font-weight: 700;
 }
 
 .CWlow {
+  color: rgb(130, 130, 130);
   font-weight: 400;
   line-height: 43px;
 }
